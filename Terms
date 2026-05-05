@@ -1,0 +1,22 @@
+# MoneyTracker — Terms of Use
+
+This software is for the personal, non-commercial use of its operator only.
+
+## Permitted use
+
+- Personal financial tracking and budgeting against the operator's own accounts.
+- Read-only access to financial APIs (Enable Banking, Monzo Developer API, eToro Public API) under the operator's own consent.
+
+## Not permitted
+
+- Any write, payment, transfer, deposit, withdrawal, or trading operation against any bank or broker API.
+- Multi-user operation — the application is built for and used by a single operator.
+- Commercial resale, hosting-as-a-service, or use on behalf of third parties.
+
+## Disclaimer
+
+Provided as-is, without warranty of any kind. The operator is responsible for verifying their own financial data against authoritative sources (their bank's official records).
+
+## Contact
+
+martyn.johns@loopup.com
