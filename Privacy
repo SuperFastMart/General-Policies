@@ -1,0 +1,33 @@
+# MoneyTracker — Privacy Policy
+
+This is a single-user, personal-use application running locally on the operator's own hardware. The operator is the only data subject.
+
+## Data accessed
+
+- Bank account information (accounts, balances, transactions) via Enable Banking, Monzo Developer API, and eToro Public API — all accessed read-only, under the operator's own consent.
+- Optional: transaction descriptions may be sent to Anthropic (Claude API) for categorization assistance.
+
+## Read-only mandate
+
+This application **never** writes to any bank or broker API. It cannot move money, place trades, post payments, or change any external state. Code-side enforcement gates every commit against forbidden write endpoints; provider-side enforcement uses minimum read scopes and (where available) IP whitelisting.
+
+## Data storage
+
+- All financial data is stored in a local PostgreSQL database on the operator's own machine.
+- No cloud database, no third-party hosting, no shared infrastructure.
+
+## Data sharing
+
+- No data is shared with third parties.
+- No analytics, advertising, or tracking.
+- No marketing communications.
+- The only outbound network egress is to the APIs listed above (Enable Banking, Monzo, eToro, Anthropic).
+
+## Data retention
+
+- Data is retained for as long as the operator chooses. The operator can delete it at any time.
+- The operator can revoke any provider's access at any time via that provider's app/portal.
+
+## Contact
+
+martyn.johns@loopup.com
